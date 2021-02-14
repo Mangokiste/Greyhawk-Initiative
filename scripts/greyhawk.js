@@ -2,7 +2,7 @@
 export class GreyhawkCombat extends Combat {
     @Override
     _sortCombatants(a, b) {
-      console.log("Hello world!");
+      alert("Hello world!");
       return super._sortCombatants(b, a);
         /*const ia = Number.isNumeric(a.initiative) ? a.initiative : 9999;
         const ib = Number.isNumeric(b.initiative) ? b.initiative : 9999;
