@@ -2,7 +2,11 @@
   "name": "greyhawk-initiative",
   "title": "Greyhawk Initiative System for DnD 5e",
   "description": "A simple module that allows to switch to the Greyhawk System for Initiative Calculation.",
-  "author": "Mangokiste",
+  "authors": [
+    {
+      "name": "Mangokiste"
+    }
+  ],
   "version": "0.0.1",
   "minimumCoreVersion": "0.5.0",
   "compatibleCoreVersion": "0.7.9",
@@ -11,5 +15,22 @@
       "name": "dnd5e",
       "type": "system"
     }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "lang/de.json"
+    }
+  ],
+  "license": "LICENSE",
+  "url":"https://github.com/Mangokiste/greyhawk-initiative",
+  "scripts": [
+    "scripts/greyhawk.js"
   ]
 }
